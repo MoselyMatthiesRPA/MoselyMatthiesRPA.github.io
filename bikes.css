@@ -1,0 +1,75 @@
+body {
+  background-image: linear-gradient(to bottom right, #7b7979, #8c8c8c);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+body {
+  text-align: left;
+}
+p {
+  color: #1e1e1e;
+  font-size: 22px;
+}
+li {
+  color: #1e1e1e;
+  font-size: 16px;
+}
+a {
+  color: #1e1e1e;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+ul {
+  list-style-position: inside;
+  text-align: center;
+}
+li {
+  text-align: center;
+}
+a:link {
+  color: #ff0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00ff00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff00ff;
+}
+
+/* selected link */
+a:active {
+  color: #0000ff;
+}
+.header {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #7b7979, #8c8c8c);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Image img{
+  height: 80%;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
