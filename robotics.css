@@ -3,6 +3,7 @@ body
     background-image: linear-gradient(to bottom right, rgb(45, 44, 44), rgb(0, 0, 0));
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
 body{
     text-align: left;
@@ -47,4 +48,13 @@ p {
               a:active {
                 color: #0000FF;
               }
-              
+              .Centerstage {
+                text-align: center;
+              }
+              .photo {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                height: 90%; 
+                width: 90%;
+              }
