@@ -1,13 +1,13 @@
 let chance = 50;
 let chancePercent;
-const secretButton = document.getElementById("secret");
+const secret = document.getElementById("secret");
 
 function SecretButtonClick() {
     console.log("Secret Button Clicked");
     showAlert();
 }
 
-secretButton.addEventListener("click", SecretButtonClick)
+secret.addEventListener("click", SecretButtonClick)
 
 function showAlert() {
   var randomNumber = Math.floor(Math.random() * chance) + 1;

@@ -56,3 +56,15 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+.button {
+  align-items: row;
+}
+svg {
+  height: 8%;
+  width: 8%;
+  margin-bottom: -45px;
+  color: white;
+}
+ .secret {
+  margin-bottom: 50px;
+}
